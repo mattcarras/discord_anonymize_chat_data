@@ -119,7 +119,4 @@ else:
     # Empty / invalid arguments
     parser.print_help()
            
-# client.run('Njk5NjI0NDI2MjYxNzA4ODIy.XpXGhQ.vDQx6TWrpG6JZBhj4AjQT5fyadk')
-
-# DC.MC^2 Channel ID = 176329233319198720
 
