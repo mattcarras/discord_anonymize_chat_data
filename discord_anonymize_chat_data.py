@@ -2,6 +2,7 @@
 WIP to get and then anonymize a given Discord channel's chat history OR to read from a file of exisitng chat data
 Makes sure all mentions are exported with discriminators for ease of parsing
 Writes to exported_chat_data.csv in UTF-8 (unicode) format
+NOTE: Mentions must be in the name#discriminator format to be anonymized
 Last Updated: 4-15-20 by Matt Carras
 """
 

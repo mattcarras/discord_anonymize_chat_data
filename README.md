@@ -1,5 +1,5 @@
 # discord_anonymize_chat_data
- Python project to anonymize chat text data (CSV) from Discord using Faker and optionally discord.py to connect to a given channel to collect new data from the channel's history. Currently anomymizes AuthorID, Author, and mentions in Content for each row of messages. Exports to UTF-8 (unicode) encoded CSV (if importing into Excel, make sure you select UTF-8 encoding).
+ Python project to anonymize chat text data (CSV) from Discord using Faker and optionally discord.py to connect to a given channel to collect new data from the channel's history. Currently anomymizes AuthorID, Author, and mentions in Content for each row of messages. Exports to UTF-8 (unicode) encoded CSV (if importing into Excel, make sure you select UTF-8 encoding). **Note that only mentions in the name#discriminator format will be anonymized.**
 
 ```
 usage: discord_anonymize_chat_data.py [-h] [-i CSV] [-o CSV] [-c CHANNELID]
